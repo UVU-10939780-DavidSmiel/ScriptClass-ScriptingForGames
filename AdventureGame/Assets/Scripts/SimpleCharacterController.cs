@@ -28,8 +28,8 @@ public class SimpleCharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MoveCharacter();
         ApplyGravity();
+        MoveCharacter();
         KeepCharacterOnAxis();
     }
 
