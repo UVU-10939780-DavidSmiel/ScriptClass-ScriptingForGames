@@ -9,7 +9,7 @@ public class SimpleFloatData : ScriptableObject
 
     public void UpdateValue(float amount)
     {
-        value =+ amount;
+        value += amount;
     
     }
 
